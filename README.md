@@ -16,7 +16,7 @@ Once chosen the location will show the name of the location, an icon with the we
 
 ## License
 
-Code licensed under MIT License [MIT License](http://opensource.org/licenses/mit-license.html "MIT License").
+Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html "MIT License").
 
 ## Contributors
 
