@@ -26,6 +26,6 @@ Gonzalo Rodríguez Martínez.https://github.com/gonzalo-r-martinez/
 
 ## Credit
 
-The icons used for the time have been created by [erikflowers](https://github.com/erikflowers "erikflowers") you can learn more on their website http://weathericons.io.
+The icons used for the time have been created by [erikflowers](https://github.com/erikflowers "erikflowers") you can learn more on his website http://weathericons.io.
 
 Weather information is obtained from the Yahoo Weather API.
