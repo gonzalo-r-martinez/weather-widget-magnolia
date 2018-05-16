@@ -12,7 +12,7 @@ First we will have to choose the location we want to show. To choose the locatio
 
 Once chosen the location will show the name of the location, an icon with the weather, temperature and optionally show, relative humidity, atmospheric pressure, time of sunrise and sunset, and the forecast of the next days.
 
-![Screenshot ](https://github.com/gonzalo-r-martinez/weather-widget-magnolia/blob/master/webresources/screenshots/Screenshot1.png "Screenshot")
+![Screenshot ](https://github.com/gonzalo-r-martinez/weather-widget-magnolia/blob/master/webresources/screenshots/Screenshot1.png?t "Screenshot")
 
 ## License
 
