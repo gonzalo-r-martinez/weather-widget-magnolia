@@ -1,24 +1,31 @@
 # Weather Widget Magnolia
-Es un widget simple para mostrar el tiempo en las páginas creadas con el gestor de contenidos Magnolias CMS
+
+A simple widget to show the weather on the pages created with the content manager Magnolias CMS.
 
 ## Features
 
-El widget está preparado para funcionar con el bundle de Magnolia Community Edition, para su uso solo tendremos que incluir el componente en una de las columnas del componente Column Layout.
+The widget is ready to work with the Magnolia Community Edition bundle, for its use we will only have to include the component in one of the columns of the Column Layout component.
 
 ## Usage
 
-Primero tendremos que elegir la localización que queremos mostrar. Para elegir la localización se usará el sistema WOEID, podemos obtener el WOEID de la localización en la siguiente página web http://woeid.rosselliot.co.nz/.
+First we will have to choose the location we want to show. To choose the location the WOEID system will be used, we can obtain the WOEID of the location on the following web page http://woeid.rosselliot.co.nz/.
 
-Una vez elegida la localización se mostrará el nombre de la localización, un icono con el estado del tiempo, la temperatura y opcionalmente podremo mostrar, la humedad relativa, la presión atmosférica, hora del amanecer y atardecer, y la previsión de los próximos seis días.
+Once chosen the location will show the name of the location, an icon with the weather, temperature and optionally show, relative humidity, atmospheric pressure, time of sunrise and sunset, and the forecast of the next days.
+
+![Captura de Ejemplo ](https://github.com/gonzalo-r-martinez/test/blob/master/webresources/screenshots/Screenshot1.png "Captura de Ejemplo")
 
 ## License
 
-Code licensed under MIT License [MIT License](http://opensource.org/licenses/mit-license.html "MIT License")
+Code licensed under MIT License [MIT License](http://opensource.org/licenses/mit-license.html "MIT License").
 
 ## Contributors
 
+Magnolia, https://magnolia-cms.com.
+
+Gonzalo Rodríguez Martínez.https://github.com/gonzalo-r-martinez/
+
 ## Credit
 
-Los iconos usados para el tiempo han sido creado por [erikflowers](https://github.com/erikflowers "erikflowers") puedes saber más en su página web http://weathericons.io
+The icons used for the time have been created by [erikflowers](https://github.com/erikflowers "erikflowers") you can learn more on their website http://weathericons.io.
 
-La información del tiempo es obtenida de la API de Yahoo Weather
+Weather information is obtained from the Yahoo Weather API.
