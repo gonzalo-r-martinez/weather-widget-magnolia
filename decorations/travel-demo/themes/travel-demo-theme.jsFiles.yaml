@@ -1,0 +1,3 @@
+weatherwidget:
+  addFingerPrint: true
+  link: /.resources/weather-widget-magnolia/webresources/js/functions.min.js

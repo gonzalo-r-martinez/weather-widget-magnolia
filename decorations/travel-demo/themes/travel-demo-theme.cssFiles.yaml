@@ -1,0 +1,8 @@
+iconweather:
+  addFingerPrint: true
+  link: /.resources/weather-widget-magnolia/webresources/css/weather-icons.min.css
+  media: all
+weatherwidget:
+  addFingerPrint: true
+  link: /.resources/weather-widget-magnolia/webresources/css/weather-widget.min.css
+  media: all  

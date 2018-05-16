@@ -1,0 +1,35 @@
+.inline-block {
+    display: inline-block!important;
+}
+
+.font-size-50 {
+    font-size: 50px!important;
+}
+
+.font-size-40 {
+    font-size: 40px!important;
+}
+
+.font-size-30 {
+    font-size: 30px!important;
+}
+
+.mr-40 {
+    margin-right: 40px!important;
+}
+
+.text-top {
+    vertical-align: top!important;
+}
+
+.mb-10 {
+    margin-bottom: 10px!important;
+}
+
+.mb-30 {
+    margin-bottom: 30px!important;
+}
+
+.p-5 {
+    padding: 5px;
+}

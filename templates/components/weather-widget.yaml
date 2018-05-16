@@ -1,0 +1,4 @@
+title: backend.component.title
+renderType: freemarker
+templateScript: /weather-widget-magnolia/templates/components/weather-widget.ftl
+dialog: weather-widget-magnolia:components/weather-widget

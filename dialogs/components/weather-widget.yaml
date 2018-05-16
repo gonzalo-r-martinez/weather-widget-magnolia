@@ -1,0 +1,99 @@
+# Automatically generated dialog with few most often used fileds (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+form:
+  label: weather-widget
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        
+        - name: name
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          description: dialog.city.name.description          
+          label: dialog.city.name.label 
+          placeholder: dialog.city.name.placeholder
+      
+        - name: woeid
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          description: dialog.city.location.description
+          required: true
+          label: dialog.city.location.label
+          placeholder: dialog.city.location.placeholder
+
+        - name: units
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: dialog.units.label
+          required: true
+          description: dialog.units.description
+          options:
+            - label: Celsius
+              selected: true
+              value: c
+            - label: Fahrenheit
+              value: f
+        - name: humidity
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: dialog.humidity.label
+          buttonLabel: dialog.humidity.buttonLabel
+          
+        - name: pressure
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: dialog.pressure.label
+          buttonLabel: dialog.pressure.buttonLabel
+
+        - name: sun
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: dialog.sun.label
+          buttonLabel: dialog.sun.buttonLabel
+        
+        - name: forecast
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: dialog.forecast.label
+          required: true
+          description: dialog.forecast.description
+          options:
+            - label: 0
+              selected: true
+              value: 0
+            - label: 1              
+              value: 1
+            - label: 2
+              value: 2
+            - label: 3
+              value: 3
+            - label: 4
+              value: 4
+            - label: 5
+              value: 5
+            - label: 6
+              value: 6
+
+        - name: color
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: dialog.color.label
+          required: true          
+          options:
+            - label: dialog.color.option.Blue
+              selected: true
+              value: bg-primary           
+            - label: dialog.color.option.Green
+              value: bg-success
+            - label: dialog.color.option.LightBlue
+              value: bg-info
+            - label: dialog.color.option.Yellow
+              value: bg-warning
+            - label: dialog.color.option.Red
+              value: bg-danger
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
