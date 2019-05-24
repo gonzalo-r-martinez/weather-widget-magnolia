@@ -1,5 +1,4 @@
 # Weather Widget Magnolia
-![GitHub watchers](https://img.shields.io/github/watchers/gonzalo-r-martinez/weather-widget-magnolia.svg?style=social)
 
 A simple widget to show the weather on the pages created with the content manager Magnolias CMS.
 
